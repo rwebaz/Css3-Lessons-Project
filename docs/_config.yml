@@ -1,8 +1,6 @@
 # Site settings
-#
-# Date of this Update to Config-template file ver 12-31-2017
-#
-# github: [metadata]
+# 
+# Date of this Update to Config-template file ver 02-06-2018 pm
 #
 # Uncomment theme for docs folder
 theme: "jekyll-theme-cayman"
@@ -14,8 +12,9 @@ theme: "jekyll-theme-cayman"
 # repository: https://www.github.com/rwebaz/Css3-Lessons-Project
 #
 title: "Css3 Lessons Project"
-tagline: "A GitHub repo of Lessons and Articles that emphasize the GFM, Kramdown, and Css3 engines"
-description: "A GitHub repo of Lessons and Articles that emphasize the GFM, Kramdown, and Css3 engines."
+lang: "en-US"
+tagline: "A GitHub repo of Lessons and Articles that emphasize modern Css3 engines"
+description: "The Css3 Lessons Project, or Css3-LP is a GitHub repo of Lessons and Articles emphasizing modern Css3 engines."
 twitter:
     username: "mminail"
 author:
@@ -23,7 +22,7 @@ author:
     email: "mminail@icloud.com"
     github_username: "rwebaz"
     twitter_username: "rwebaz"
-# The 'baseurl' is the subpath of your designated project, e.g. /Liquid-Lessons-Project or /blog or simply "/"
+# The 'baseurl' is the subpath of your designated project, e.g. /Blank-Lessons-Project or /blog or simply "/"
 baseurl: "/Css3-Lessons-Project"
 # The 'url' is the parental web address of your designated project, e.g. /https://mminail.github.io
 url: "https://rwebaz.github.io"
@@ -37,6 +36,7 @@ kramdown:
     math_engine: "mathjax"
 timezone: "America/Phoenix"
 google_analytics: [UA-44765001-46]
+# Settings For Default Keys: Use a scope/values pair
 defaults:
   - scope:
       path: "assets/img"
@@ -54,27 +54,31 @@ defaults:
       image: "true"
 defaults:
   - scope:
+      path: "assets/img/ico"
+    values:
+      image: "true"
+defaults:
+  - scope:
       path: "" 
       type: "pages"
     values:
-      layout: "default"
-      author: "Robert Weber, Director"
+      category: "css3"
 defaults:
   - scope:
       path: "pages"
       type: "pages"
     values:
-      layout: "default" 
-      author: "Robert Weber, Director"
+      category: "css3"
+excerpt_separator: <!-- this is a literal excerpt separator -->
 collections:
-  collection_CFFP:
+  gists:
     output: "true"
 defaults:
   - scope:
-      path: ""
-      type: "collection_LLP"
+      path: "_gists"
+      type: "pages"
     values:
-      layout: "page"
+      category: "css3"
 plugins_dir:
   - jekyll-feed
   - jekyll-seo-tag
@@ -82,3 +86,4 @@ plugins_dir:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - Gemfile.old
