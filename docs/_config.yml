@@ -11,8 +11,8 @@ theme: "jekyll-theme-cayman"
 # There are approx sixty auxillary repositories as of 12-31-17
 # repository: https://www.github.com/rwebaz/Css3-Lessons-Project
 #
-title: "Css3 Lessons Project"
 lang: "en-US"
+title: "Css3 Lessons Project"
 tagline: "A GitHub repo of Lessons and Articles that emphasize modern Css3 engines"
 description: "The Css3 Lessons Project, or Css3-LP is a GitHub repo of Lessons and Articles emphasizing modern Css3 engines."
 twitter:
