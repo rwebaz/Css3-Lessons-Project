@@ -1,3 +1,4 @@
+/* Style template scss Dtd 02-04-18 pm */
 /* @import 'jekyll-theme-cayman'; */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
@@ -852,6 +853,14 @@ li.active a {
   color: #DC143C;
   /* Crimson Red */ }
 
+.indian-red {
+  color: #cf674b;
+  /* Indian Red */ }
+
+.light-dodger-blue {
+  color: #337ab7;
+  /* Light Dodger Blue */ }
+
 .btn {
   /* color: #004B23; Forest Green */
   color: dodgerblue; }
@@ -875,6 +884,17 @@ li.active a {
   width: 100px; }
 
 /* End Imgage Zoom-out From thumb */
+/* ------------------------------------------
+    Begin Image Zoom-out From Alternative svg
+------------------------------------------ */
+.img-logo-badge-icon {
+  width: calc(5% - 0px);
+  height: auto; }
+
+/* Where the "plus" sign represents the adjacent sibling selector in Css3 */
+.img-logo-badge-icon:hover + .icon-zoom {
+  width: calc(10% - 0px); }
+
 /* Set the collapsable Responsive Image */
 img {
   /* min-width: 340px; */
@@ -886,6 +906,9 @@ img {
 .img-responsive {
   width: calc(100% - 0px);
   max-width: 100%; }
+
+.img-rounded {
+  border-radius: 6px; }
 
 /* End the collapsable Responsive Image */
 /* Set the Primary Nav*/
@@ -905,4 +928,14 @@ nav.nav-primary li a {
   padding: 1%;
   border-radius: 6px; }
 
-/* End Setting the Primary Nav*/
+/* End Setting the Primary Nav */
+/* Set the Table Row */
+.center {
+  text-align: center; }
+
+/* End Setting the Table Row */
+/* Set the Table Border */
+.groove-table {
+  border: 5px groove green; }
+
+/* End Setting the Table Border */

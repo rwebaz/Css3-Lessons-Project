@@ -1,12 +1,12 @@
 ---
 title: Home Page
 layout: default
-excerpt: Shell tags and Shell statements mimic underlying Javascript methods ...
-version: Index Template md Dtd 02-06-18
+excerpt: Css3 tags and Css3 statements mimic underlying Javascript methods ...
+version: Index Template md Dtd 02-07-18
 navigation_weight: 1
 categories: css3
 ---
-{% comment %}{% raw %}{% include page-banner-blank.md %}{% endcomment %}{% endraw %}
+{% comment %}{% raw %}{% include page-banner-blank.md %}{% endraw %}{% endcomment %}
 
 # Css3 Lessons Project Home Page
 
